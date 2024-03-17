@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../modal/usermodal.js");
 const { isValidEmail, isValidPassword } = require("../utils/validation.js");
 
 exports.createUser = async (req, res) => {

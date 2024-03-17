@@ -4,7 +4,7 @@ const port = 8080;
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const cors = require("cors");
-const authRoutes = require("./routes/authRoutes"); // Assuming your routes file is named authRoutes.js
+const authRoutes = require("./routes/auth-route"); // Assuming your routes file is named authRoutes.js
 
 dotenv.config();
 app.use(cors());
